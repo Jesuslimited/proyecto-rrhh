@@ -1,0 +1,237 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProyectoRRHH
+build_property.RootNamespace = ProyectoRRHH
+build_property.ProjectDir = C:\Users\jesus\source\repos\ProyectoRRHH\ProyectoRRHH\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jesus\source\repos\ProyectoRRHH\ProyectoRRHH
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Candidatos/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbmRleDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/capacitaciones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FwYWNpdGFjaW9uZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/capacitaciones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FwYWNpdGFjaW9uZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/capacitaciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FwYWNpdGFjaW9uZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/capacitaciones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FwYWNpdGFjaW9uZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/capacitaciones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2FwYWNpdGFjaW9uZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/competencias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tcGV0ZW5jaWFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/competencias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tcGV0ZW5jaWFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/competencias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tcGV0ZW5jaWFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/competencias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tcGV0ZW5jaWFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/competencias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY29tcGV0ZW5jaWFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/departamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0YW1lbnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/departamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0YW1lbnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/departamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0YW1lbnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/departamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0YW1lbnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/departamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcZGVwYXJ0YW1lbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Excel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEV4Y2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Empleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Experiencia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhwZXJpZW5jaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/idiomas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaWRpb21hc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/idiomas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaWRpb21hc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/idiomas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaWRpb21hc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/idiomas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaWRpb21hc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/idiomas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaWRpb21hc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/puestos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHVlc3Rvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/puestos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHVlc3Rvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/puestos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHVlc3Rvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/puestos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHVlc3Rvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/puestos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccHVlc3Rvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Shared/_Slidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jesus/source/repos/ProyectoRRHH/ProyectoRRHH/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0f7q1yp43q

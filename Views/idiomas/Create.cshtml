@@ -1,0 +1,45 @@
+﻿@model ProyectoRRHH.Models.idioma
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Crear</h1>
+
+<h4>Idioma</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Nombre</label>
+                <input asp-for="nombre" class="form-control" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label  class="control-label">Nivel</label>
+                <select asp-for="nivel" class="form-control">
+                        <option value="">-Selecciona</option>
+                        <option value="Principiante">A0: Principiante</option>
+                        <option value="Básico">A1-A2: Básico</option>
+                        <option value="Pre-intermedio">A2-B1: Pre-intermedio</option>
+                        <option value="Intermedio">B1: Intermedio</option>
+                        <option value="Intermedio-Alto">B2: Intermedio-Alto</option>
+                        <option value="Avanzado">C1-C2: Avanzado</option>
+                </select>
+                <span asp-validation-for="nivel" class="text-danger"></span>
+            </div>
+            <br />
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-primary">Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+

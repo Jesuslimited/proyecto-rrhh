@@ -1,0 +1,52 @@
+﻿@model ProyectoRRHH.Models.puesto
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar</h1>
+<div class="alert alert-danger" role="alert">
+    Si eliminas este puesto, se elimininará de forma permanente.
+</div>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Nombre
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            Nivel de Riesgo
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nivelriesgo)
+        </dd>
+        <dt class = "col-sm-2">
+            Salario minimo
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.salariomin)
+        </dd>
+        <dt class = "col-sm-2">
+            Salario máximo
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.salariomax)
+        </dd>
+        <dt class = "col-sm-2">
+            Estado
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.estado)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary">Volver</a>
+    </form>
+</div>

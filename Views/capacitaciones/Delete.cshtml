@@ -1,0 +1,64 @@
+﻿@model ProyectoRRHH.Models.capacitacione
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar</h1>
+<div class="alert alert-danger" role="alert">
+    Si eliminas esta capacitación, se elimininará de forma permanente.
+</div>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Descripción
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.descripcion)
+        </dd>
+        <dt class = "col-sm-2">
+            Nivel
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nivel)
+        </dd>
+        <dt class = "col-sm-2">
+            Fecha Desde
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var fechadesde = ((DateTime)Model.fechadesde).ToString("dd/MM/yyyy");
+            }
+            @fechadesde
+        </dd>
+        <dt class = "col-sm-2">
+            Fecha Hasta
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var fechahasta = ((DateTime)Model.fechahasta).ToString("dd/MM/yyyy");
+            }
+            @fechahasta
+        </dd>
+        <dt class = "col-sm-2">
+            Institución
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.institucion)
+        </dd>
+        <dt class = "col-sm-2">
+        Candidato
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.candidato.cedula)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary">Volver</a>
+    </form>
+</div>

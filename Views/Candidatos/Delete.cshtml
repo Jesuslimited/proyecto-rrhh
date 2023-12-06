@@ -1,0 +1,119 @@
+﻿@model ProyectoRRHH.Models.candidato
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h1 class="text-center">Eliminar</h1>
+<div class="alert alert-danger" role="alert">
+    Si eliminas este candidato, se elimininará de forma permanente.
+</div>
+<div
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+        Cédula
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cedula)
+        </dd>
+        <dt class = "col-sm-2">
+        Nombre
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.nombre)
+        </dd>
+        <dt class = "col-sm-2">
+        Puesto aspiracional
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.salarioaspira)
+        </dd>
+        <dt class="col-sm-2">
+        Competencias
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var competencias = String.Join(", ", Model.competencia.Select(x => x.descripcion).ToArray());
+            }
+            @Html.DisplayFor(model => competencias)
+        </dd>
+        <dt class="col-sm-2">
+        Idiomas
+        </dt>
+        <dd class="col-sm-10">
+            @{
+                var idiomas = String.Join(", ", Model.idiomas.Select(x => x.nombre).ToArray());
+            }
+            @Html.DisplayFor(model => idiomas)
+        </dd>
+        <dt class="col-sm-2">
+            Departamento
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.departamentoNavigation.departamento1)
+        </dd>
+        <dt class="col-sm-2">
+            Puesto aspira
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.puestoaspiraNavigation.nombre)
+        </dd>
+        <dt class = "col-sm-2">
+        Experiencia Laboral
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.explaboral)
+        </dd>
+        <dt class = "col-sm-2">
+        Empresa
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.empresa)
+        </dd>
+        <dt class = "col-sm-2">
+        Puesto ocupado
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.puestoocupado)
+        </dd>
+        <dt class = "col-sm-2">
+        Fecha Desde
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var fechadesde = ((DateTime)Model.fechadesde).ToString("dd/MM/yyyy");
+            }
+            @fechadesde
+        </dd>
+        <dt class = "col-sm-2">
+        Fecha Hasta
+        </dt>
+        <dd class = "col-sm-10">
+            @{
+                var fechahasta = ((DateTime)Model.fechahasta).ToString("dd/MM/yyyy");
+            }
+            @fechahasta
+        </dd>
+        <dt class = "col-sm-2">
+        Salario
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.salario)
+        </dd>
+        <dt class = "col-sm-2">
+        Recomendado por:
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.recomendadopor)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="id" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-primary">Volver</a>
+    </form>
+</div>
+

@@ -1,0 +1,136 @@
+﻿@model ProyectoRRHH.Models.candidato
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var mensaje = TempData["Mensaje"] as string;
+
+}
+<br />
+<h1 class="text-center bg-info-subtle">Candidato</h1>
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="alert alert-info">@mensaje</div>
+}
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           <div class="row">
+               <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <fieldset>
+                        <legend>General:</legend>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Cédula</label>
+                            <input asp-for="cedula" class="form-control" />
+                            <span asp-validation-for="cedula" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Nombre</label>
+                            <input asp-for="nombre" class="form-control" />
+                            <span asp-validation-for="nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Puesto aspiracional</label>
+                            <select asp-for="puestoaspira" class="form-control" asp-items="ViewBag.puestoaspira"></select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Departamento</label>
+                            <select asp-for="departamento" class="form-control" asp-items="ViewBag.departamento"></select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Competencias</label>
+                            <select multiple asp-for="competencia" class="form-control" asp-items="ViewBag.competencias"></select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Idiomas</label>
+                            <select multiple asp-for="idiomas" class="form-control" asp-items="ViewBag.idiomas"></select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Salario aspiracional</label>
+                            <input asp-for="salarioaspira" class="form-control" />
+                            <span asp-validation-for="salarioaspira" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <hr />
+                        <div class="form-group mb-2">
+                            <a class="btn btn-primary" asp-area="" asp-controller="Home" asp-action="Index">Volver</a>
+                        </div>
+
+                    </fieldset>
+                    </div>
+                    <div class="col-md-4">
+                        <fieldset class="mb-4">
+                            <legend>Experiencia Laboral:</legend>
+                            <div class="form-group mb-2">
+                            <label class="control-label">Experiencia Laboral</label>
+                            <select asp-for="explaboral" class="form-control">
+                                <option value="">-Selecciona-</option>
+                                <option value="Si">Si</option>
+                                <option value="No">No</option>
+                            </select>
+                                <span asp-validation-for="explaboral" class="text-danger"></span>
+                            </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Empresa</label>
+                            <input asp-for="empresa" class="form-control" />
+                            <span asp-validation-for="empresa" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Puesto ocupado</label>
+                            <input asp-for="puestoocupado" class="form-control" />
+                            <span asp-validation-for="puestoocupado" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Fecha Desde</label>
+                            <input asp-for="fechadesde" class="form-control" type="date" />
+                            <span asp-validation-for="fechadesde" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Fecha Hasta</label>
+                            <input asp-for="fechahasta" class="form-control" type="date" />
+                            <span asp-validation-for="fechahasta" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Salario</label>
+                            <input asp-for="salario" class="form-control" />
+                            <span asp-validation-for="salario" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label class="control-label">Recomendado por:</label>
+                            <input asp-for="recomendadopor" class="form-control" />
+                            <span asp-validation-for="recomendadopor" class="text-danger"></span>
+                        </div>
+                        <br />
+                        <hr />
+                        <div class="form-group mb-2">
+                            <input type="submit" value="Guardar" class="btn btn-success" />
+                            <a class="btn btn-primary" asp-area="" asp-controller="Capacitaciones" asp-action="Create">Siguiente</a>
+
+                        </div>
+                        </fieldset>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <hr />
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        $("#competencia").select2({
+            theme: "bootstrap"
+        })
+
+        $("#idiomas").select2({
+            theme: "bootstrap"
+        })
+    </script>
+}
